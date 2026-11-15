@@ -1,1 +1,155 @@
 # SOC-Home-Lab
+
+A practical cybersecurity portfolio documenting hands-on Security Operations Center (SOC) and Blue Team projects.
+
+This repository showcases the implementation of security monitoring environments, SIEM technologies, endpoint telemetry collection, threat detection, security event analysis, and investigation workflows.
+
+The objective is to demonstrate practical technical competencies relevant to SOC Analyst L1/L2 responsibilities through documented lab implementations and verifiable evidence.
+
+## Portfolio Objectives
+
+- Implement and configure security monitoring technologies.
+- Collect and analyze Windows, Linux, and network security telemetry.
+- Investigate authentication and endpoint security events.
+- Develop practical threat detection and monitoring capabilities.
+- Understand SIEM architecture and security event pipelines.
+- Apply MITRE ATT&CK concepts to security investigations.
+- Document technical implementations, challenges, findings, and limitations.
+
+## SOC Projects
+
+| No. | Project | Primary Focus |
+|---|---|---|
+| 01 | Centralized SIEM Implementation, Security Event Monitoring and Threat Detection | Wazuh, SIEM, Windows telemetry, FIM 
+| 02 | Windows Endpoint Attack Simulation and Threat Detection | Windows attack simulation and detection
+| 03 | Linux Endpoint Attack Simulation and Threat Detection | Linux security monitoring and detection 
+| 04 | Network Security Monitoring and Threat Hunting | Security Onion, Zeek, Suricata, Wireshark 
+
+
+## Project 01: Centralized SIEM Implementation, Security Event Monitoring and Threat Detection 
+
+**Technology:** Wazuh
+
+Implementation includes:
+
+- Wazuh all-in-one SIEM deployment.
+- Ubuntu Server 24.04.5 hosting the central components.
+- Windows 11 endpoint integration.
+- Windows authentication event monitoring.
+- Windows account creation and deletion monitoring.
+- File Integrity Monitoring (FIM).
+- PowerShell Script Block Logging and event collection.
+- Security event investigation through Wazuh Dashboard.
+
+[View Project 01](./01-Centralized-SIEM-SOC-Monitoring/)
+
+## Project 02: Windows Endpoint Threat Detection
+
+Planned implementation of controlled Windows attack simulations, security telemetry collection, detection validation, and endpoint investigation.
+
+## Project 03: Linux Endpoint Threat Detection
+
+Planned implementation of Linux authentication monitoring, suspicious activity investigation, system auditing, and endpoint threat detection.
+
+## Project 04: Network Security Monitoring
+
+Planned network monitoring and threat hunting using Security Onion, Zeek, Suricata, and Wireshark.
+
+---
+
+## Technologies and Tools
+
+| Category | Technologies |
+|---|---|
+| SIEM | Wazuh |
+| Operating Systems | Windows 11, Ubuntu Server |
+| Virtualization | Oracle VirtualBox |
+| Endpoint Monitoring | Wazuh Agent |
+| Windows Logging | Windows Security Events, PowerShell Operational Logs |
+| File Monitoring | Wazuh File Integrity Monitoring |
+| Network Monitoring | Security Onion, Zeek, Suricata, Wireshark |
+| Documentation | Markdown, Git, GitHub |
+
+---
+
+## Lab Environment
+
+The initial SIEM project uses the following environment:
+
+| Component | Configuration |
+|---|---|
+| Host OS | Windows 11 |
+| Hypervisor | Oracle VirtualBox 7.2.4 |
+| SIEM Server OS | Ubuntu Server 24.04.5 LTS |
+| SIEM Platform | Wazuh |
+| SIEM Server RAM | 6 GB |
+| SIEM Server CPU | 4 vCPUs |
+| Virtual Disk | 80 GB dynamically allocated |
+| Endpoint | Windows 11 |
+| Endpoint Agent | Wazuh Agent 4.14.10 |
+| Network | VirtualBox NAT with port forwarding |
+
+**Resource limitation:** The Wazuh server VM has 6 GB RAM, below the 8 GB RAM recommendation in Wazuh's Quickstart requirements. This is a constrained educational lab deployment, not a production sizing recommendation.
+
+---
+
+## Repository Structure
+
+```text
+SOC-Home-Lab-Portfolio/
+│
+├── README.md
+│
+├── 01-Windows-Endpoint-Threat-Detection-and-Monitoring/
+│   ├── README.md
+│   ├── architecture/
+│   ├── configurations/
+│   ├── investigation-reports/
+│   ├── screenshots/
+│
+├── 02-Windows-Endpoint-Threat-Detection/
+│   └── README.md
+│
+├── 03-Linux-Endpoint-Threat-Detection/
+│   └── README.md
+│
+└── 04-Network-Security-Monitoring/
+    └── README.md
+```
+
+---
+
+## Documentation and Evidence Standards
+
+Each project will include:
+
+- Project objectives and scope.
+- Technical architecture.
+- Tools and technologies.
+- Lab environment details.
+- Installation and configuration procedures.
+- Implementation walkthrough.
+- Detection and monitoring methodology.
+- Screenshots and supporting evidence.
+- Investigation findings.
+- Challenges and troubleshooting.
+- Results and limitations.
+- Lessons learned.
+
+## Learning Objectives
+
+The overall portfolio is intended to demonstrate practical familiarity with:
+
+- SIEM deployment and administration.
+- Security event collection and analysis.
+- Windows and Linux endpoint monitoring.
+- File Integrity Monitoring.
+- Authentication event investigation.
+- Network security monitoring.
+- Threat detection and hunting.
+- Incident investigation and documentation.
+- Blue Team operational workflows.
+
+---
+
+**Disclaimer:** This repository documents authorized educational lab environments and controlled security simulations. It is intended for cybersecurity learning and professional portfolio development.
