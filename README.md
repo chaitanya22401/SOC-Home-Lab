@@ -27,20 +27,6 @@ The objective is to demonstrate practical technical competencies relevant to SOC
 
 
 ## Project 01: Windows Endpoint Threat Detection and Monitoring
-
-**Technology:** Wazuh
-
-Implementation includes:
-
-- Wazuh all-in-one SIEM deployment.
-- Ubuntu Server 24.04.5 hosting the central components.
-- Windows 11 endpoint integration.
-- Windows authentication event monitoring.
-- Windows account creation and deletion monitoring.
-- File Integrity Monitoring (FIM).
-- PowerShell Script Block Logging and event collection.
-- Security event investigation through Wazuh Dashboard.
-
 [View Project 01](./01-Centralized-SIEM-SOC-Monitoring/)
 
 ## Project 02: Windows Endpoint Threat Detection
