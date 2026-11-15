@@ -27,7 +27,7 @@ The objective is to demonstrate practical technical competencies relevant to SOC
 
 
 ## Project 01: Windows Endpoint Threat Detection and Monitoring
-[View Project 01](./https://github.com/chaitanya22401/SOC-Home-Lab/tree/main/Windows-Endpoint-Threat-Detection-and-Montioring/)
+[View Project 01](./Windows-Endpoint-Threat-Detection-and-Montioring/)
 
 ## Project 02: Windows Endpoint Threat Detection
 
