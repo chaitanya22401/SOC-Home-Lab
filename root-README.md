@@ -29,9 +29,8 @@ The objective is to demonstrate practical technical competencies relevant to SOC
 ## Project 01: Windows Endpoint Threat Detection and Monitoring
 [View Project 01](./Windows-Endpoint-Threat-Detection-and-Montioring/)
 
-## Project 02: Windows Endpoint Threat Detection
-
-Planned implementation of controlled Windows attack simulations, security telemetry collection, detection validation, and endpoint investigation.
+## Project 02: Linux Adversary Simulation and Detection Engineering
+[View Project 02](./Linux-Adversary-Simulation-and-Detection-Engineering/)
 
 ## Project 03: Linux Endpoint Threat Detection
 
