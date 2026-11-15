@@ -136,20 +136,6 @@ Each project will include:
 - Results and limitations.
 - Lessons learned.
 
-## Learning Objectives
-
-The overall portfolio is intended to demonstrate practical familiarity with:
-
-- SIEM deployment and administration.
-- Security event collection and analysis.
-- Windows and Linux endpoint monitoring.
-- File Integrity Monitoring.
-- Authentication event investigation.
-- Network security monitoring.
-- Threat detection and hunting.
-- Incident investigation and documentation.
-- Blue Team operational workflows.
-
 ---
 
 **Disclaimer:** This repository documents authorized educational lab environments and controlled security simulations. It is intended for cybersecurity learning and professional portfolio development.
