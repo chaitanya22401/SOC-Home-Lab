@@ -20,13 +20,13 @@ The objective is to demonstrate practical technical competencies relevant to SOC
 
 | No. | Project | Primary Focus |
 |---|---|---|
-| 01 | Centralized SIEM Implementation, Security Event Monitoring and Threat Detection | Wazuh, SIEM, Windows telemetry, FIM 
+| 01 | Windows Endpoint Threat Detection and Monitoring| Wazuh, SIEM, Windows telemetry, FIM 
 | 02 | Windows Endpoint Attack Simulation and Threat Detection | Windows attack simulation and detection
 | 03 | Linux Endpoint Attack Simulation and Threat Detection | Linux security monitoring and detection 
 | 04 | Network Security Monitoring and Threat Hunting | Security Onion, Zeek, Suricata, Wireshark 
 
 
-## Project 01: Centralized SIEM Implementation, Security Event Monitoring and Threat Detection 
+## Project 01: Windows Endpoint Threat Detection and Monitoring
 
 **Technology:** Wazuh
 
